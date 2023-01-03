@@ -1,0 +1,32 @@
+.login {
+    background: var(--light-blue);
+    height: 100vh;
+    
+}
+
+
+// .login > div   means child div
+
+
+.login .sub__login{
+    width: 30rem;
+    
+    
+}
+
+.password {
+    position: relative;
+
+    .icon {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 450) {
+    .sub__login {
+      width: 30rem;
+    }
+}
